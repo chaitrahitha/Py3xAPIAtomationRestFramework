@@ -4,8 +4,8 @@ import json
 import requests
 
 
-def get_request(url, auth):
-    response = requests.get(url=url, auth=auth)
+def get_request(url,headers, auth):
+    response = requests.get(url=url, headers=headers, auth=auth)
     return response.json()
 
 

@@ -21,3 +21,8 @@ def payload_create_token():
         "password": "password123"
     }
     return payload
+
+def payload_patch_request():
+    return {
+        "firstname": "Chaitra",
+    }
